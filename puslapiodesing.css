@@ -1,0 +1,164 @@
+*
+header, section, footer, aside, nav, article, figure, figcaption {
+				display: block;}
+			body {
+				color: #666666;
+				background-color: #f9f8f6;
+				background-image: url("paveiksleliai/pagrindinis1.jpg");
+				background-size:     cover; 
+				background-repeat: no-repeat;
+				background-position: center;
+				font-family: Georgia, Times, serif;
+				line-height: 1.5em;
+				margin: 0px;}
+				#pitalic {
+					font-style: italic;
+				}
+			.vidinislangas {
+				width: 940px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+				background-color: #ffffff;}	
+			header {
+				height: 230px;
+				background-image: url("paveiksleliai/header.jpg");
+				background-size: cover;				
+				}
+			#logo{
+				float: left;
+			}
+			nav, footer {
+				clear: both;
+				color: #ffffff;
+				background-color: #10C66E;
+				height: 30px;}
+			nav ul {
+				margin: 0px;
+				padding: 5px 0px 5px 30px;}
+			nav li {
+				display: inline;
+				margin-right: 40px;}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover,a:active nav li a.meniu {
+				color: #000000;
+				background-color:#0CAB5E}
+			section.veikla {
+				float: left;
+				width: 659px;
+				border-right: 1px solid #eeeeee;}
+			section.galerija	{
+				float: left;
+				width:659px;
+				border-right: 1px solid #eeeeee;
+			}
+			section.Gamyba	{
+				float: left;
+				width:659px;
+				border-right: 1px solid #eeeeee;
+				padding-left: 20px;
+			}
+			img.apie {
+				display: block;
+				width: 300px;
+				height: 200px;
+				border-style: double;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			section.apiemuila	{
+				float: left;
+				width:659px;
+				border-right: 1px solid #eeeeee;
+				padding-left: 20px;
+			}
+			section.apie	{
+				float: left;
+				width:659px;
+				border-right: 1px solid #eeeeee;
+				padding-left: 20px;
+			}
+			ul.list {
+				list-style-type: square;
+			}
+			#h1centre{
+				color: #000000;
+				text-align: center;
+				font-family: gabriola;
+			}
+			#h1didesnis{
+				margin: 20px 0px 15px 0px;
+				padding-left: 30px;
+				color: #000000;
+				font-weight: bold;
+			}
+			table, td, th {    
+				border: 1px solid #ddd;
+				text-align: left;
+			}
+			table {
+				border-collapse: collapse;
+				width: 100%;
+			}
+			th, td {
+				padding: 30px;
+				text-align: center;
+			}
+			tr:nth-child(even){background-color: #f2f2f2}
+			#imgtable{
+				width:200px;
+				height:200px;
+			}
+			article {
+				clear: both;
+				overflow: auto;
+				width: 100%;}
+			hgroup {
+				margin-top: 40px;}
+			figure {
+				float: left;
+				width: 290px;
+				height: 220px;
+				padding: 5px;
+				margin: 20px;
+				border: 1px solid #eeeeee;}
+			figure img {
+				width: 100%;
+		
+			}	
+			figcaption {
+				font-size: 90%;
+				text-align: left;}
+			aside {
+				width: 230px;
+				float: left;
+				padding: 0px 0px 0px 20px;}
+			aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;}
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+			a {
+				color: #de6581;
+				text-decoration: none;}
+			h1, h2, h3 {
+				font-weight: normal;}
+			h1{
+				margin: 15px 0px 10px 0px;
+				padding: 3px;
+				color: #110ADC;
+			}	
+			h2 {
+				margin: 10px 0px 5px 0px;
+				padding: 0px;}
+			h3 {
+				margin: 0px 0px 10px 0px;
+				color: #de6581;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #de6581;}
+			footer {
+				font-size: 80%;
+				padding: 7px 0px 0px 20px;}
